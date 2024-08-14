@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+import IngredientsArea from "../components/form-area";
+import FormArea from "../components/form-area";
+
 export default function OrderPage() {
   return (
     <>
@@ -39,6 +42,8 @@ export default function OrderPage() {
             denir.
           </p>
         </div>
+
+        <FormArea />
       </div>
     </>
   );
